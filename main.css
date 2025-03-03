@@ -67,7 +67,12 @@ section {
 section h2 {
     margin-bottom: 16px;
     font-weight: lighter;
+
+}
+
+section{
     color: #182c61;
+    background-color: #182b6177;
 }
 
 section p {
