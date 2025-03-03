@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+header h1,
+section h2 {
+    font-family: 'Bungee',cursive;
+}
+body {
+    font-family: 'roboto', sans-serif;
+}
+
 header {
     padding: 16px 0;
     background-color: #182c61;
