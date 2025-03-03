@@ -45,3 +45,19 @@ section .container {
 section .container {
     align-items: flex-start;
 }
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section img {
+    margin-right: 32px;
+}
