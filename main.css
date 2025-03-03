@@ -44,6 +44,7 @@ section .container {
 
 .brands-list img {
     height: 24px;
+    margin-left: 14px;
 }
 
 .brands-list li {
