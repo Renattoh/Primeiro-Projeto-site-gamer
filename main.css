@@ -10,7 +10,16 @@ header {
     color: #ecf0f1;
 }
 
-header nv li {
+header nav li {
     display: inline;
-    margin-right: 16px;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+}
+
+.container {
+    max-width: 1280;
+    width: 100%;
 }
