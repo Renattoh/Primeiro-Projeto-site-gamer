@@ -41,6 +41,7 @@ section .container {
 .brands-list li {
     display: inline;
 }
+
 section .container {
     align-items: flex-start;
 }
