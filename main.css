@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header h1,
+header,
 section h2 {
     font-family: 'Bungee',cursive;
 }
@@ -18,10 +18,14 @@ header {
     color: #ecf0f1;
 }
 
+header h1 {
+    font-weight: normal;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header nav li a {
@@ -38,7 +42,7 @@ header nav li a {
 header .container,
 section .container {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
