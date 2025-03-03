@@ -18,8 +18,8 @@ header {
     color: #ecf0f1;
 }
 
-header h1 {
-    font-weight: normal;
+header h1, {
+    font-weight: lighter;
 }
 
 header nav li {
@@ -48,7 +48,8 @@ section .container {
 
 .brands-list img {
     height: 24px;
-    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 14px;
 }
 
 .brands-list li {
@@ -65,6 +66,8 @@ section {
 
 section h2 {
     margin-bottom: 16px;
+    font-weight: lighter;
+    color: #182c61;
 }
 
 section p {
