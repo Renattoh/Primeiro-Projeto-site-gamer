@@ -139,3 +139,7 @@ form input:hover,
 form textarea:hover {
     background-color: #949090;
 }
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
