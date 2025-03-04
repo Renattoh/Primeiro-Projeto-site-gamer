@@ -17,15 +17,15 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">Sobre a loja</a>                
+                    <a href="#about">Sobre a loja</a>                
                 </li>
                 <li>
-                    <a href="#">Contatos</a>
+                    <a href="#contact">Contatos</a>
                 </li>
         </nav> 
     </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
             <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja Games Shop" />
             <div>
@@ -51,10 +51,10 @@
                 <div>
                     <h3>Fale conosco</h3>
                     <form>
-                        <input type="text" placeholder="Nome" />
-                        <input type="email" placeholder="E-mail" />
+                        <input type="text" placeholder="Nome" required/>
+                        <input type="email" placeholder="E-mail" required/>
                         <input type="tel" placeholder="Telefono (opcional)" />
-                        <textarea placeholder="Sua mensagem"></textarea>
+                        <textarea placeholder="Sua mensagem" required></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div><div>
@@ -85,5 +85,12 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games shop - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
