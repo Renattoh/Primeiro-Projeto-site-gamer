@@ -5,12 +5,14 @@
 }
 
 header,
-section h2
-section h3 {
+section h2,
+section h3,
+form button {
     font-family: 'Bungee',cursive;
+    font-weight: lighter;
 }
 
-body {
+body, input, textarea {
     font-family: 'roboto', sans-serif;
 }
 
@@ -18,10 +20,6 @@ header {
     padding: 16px 0;
     background-color: #182c61;
     color: #ecf0f1;
-}
-
-header h1, {
-    font-weight: lighter;
 }
 
 header nav li {
@@ -112,12 +110,32 @@ form button {
     width: 320px;
     margin-bottom: 20px;
     padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.45);
 }
 
 form textarea {
     resize: none;
+    height: 180px;
 }
 
 section h3 {
-    margin-bottom: 4px;
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #fff;
+    border: none;    
+}
+
+form button:hover {
+    background-color: #385caa;
+}
+
+form input:hover,
+form textarea:hover {
+    background-color: #949090;
 }
